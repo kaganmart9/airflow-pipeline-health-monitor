@@ -32,20 +32,14 @@ High-level data flow:
 5. Models detect anomalies and compute health scores
 6. API and UI serve health and anomaly insights
 
-## Repository rules
-
-- Notebook-first development: all logic must be validated in notebooks before being extracted into src/
-- ASCII-only and English-only text everywhere in the repo
-- Deterministic, testable components with unit tests for critical logic
-
-## Local development (placeholder)
+## Local development
 
 This section will be expanded after the environment and docker-compose are added.
 
-## Tests (placeholder)
+## Tests
 
 This section will be expanded after pytest is wired.
 
-## Deployment (placeholder)
+## Deployment
 
 This section will be expanded after Dockerfiles and Cloud Run config are added.
