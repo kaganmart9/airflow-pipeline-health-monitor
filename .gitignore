@@ -1,0 +1,45 @@
+# Python
+__pycache__/
+*.py[cod]
+*.pyd
+*.so
+*.egg-info/
+dist/
+build/
+
+# Virtual environments
+.venv/
+venv/
+
+# Poetry
+poetry.lock
+
+# Jupyter
+.ipynb_checkpoints/
+
+# OS / editor
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
+
+# Data artifacts
+data/raw/
+data/interim/
+data/processed/
+
+# Local env
+.env
+.env.*
+!.env.example
+
+# Local Airflow runtime artifacts (must not be committed)
+logs/
+dags/
+plugins/
+airflow.cfg
+webserver_config.py
+
+# If you ran Airflow directly in repo root, ignore its sqlite db as well
+airflow.db
+unittests.cfg
